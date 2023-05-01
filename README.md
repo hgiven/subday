@@ -1,1 +1,1 @@
-I'm just trying to figure this out. git 
+I'm just trying to figure this out.
