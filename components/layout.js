@@ -11,7 +11,6 @@ export const siteTitle = 'Portfolio';
 export default function Layout({ children, home }) {
     return (
       <div className={styles.container}>
-        <Navbar />
         <header className={styles.header}>
           {home ? (
             <>
@@ -45,6 +44,7 @@ export default function Layout({ children, home }) {
             </>
           )}
         </header>
+        < Navbar/>
         <main>{children}</main>
         {!home && (
           <div className={styles.backToHome}>
