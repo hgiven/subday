@@ -4,6 +4,7 @@ import utilStyles from '../styles/utils.module.css';
 import Link from 'next/link'; 
 import Date from '../components/date';
 import { getSortedPostsData } from '../lib/posts';
+import Navbar from '../components/Navbar';
 
 export async function getStaticProps() {
   const allPostsData = getSortedPostsData();
@@ -17,6 +18,7 @@ export async function getStaticProps() {
 export default function Home({ allPostsData }) {
   return (
   <div className={utilStyles.container}>
+    <Navbar/>
     <Layout home>
       <Head>
         <title>{siteTitle}</title>
