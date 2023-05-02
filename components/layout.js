@@ -46,7 +46,6 @@ export default function Layout({ children, home }) {
           )}
         </header>
         <main>{children}</main>
-        <Footer />
         {!home && (
           <div className={styles.backToHome}>
             <Link href="/">← Back to home</Link>
