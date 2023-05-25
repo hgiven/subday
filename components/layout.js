@@ -5,8 +5,8 @@ import utilStyles from '../styles/utils.module.css';
 import Link from 'next/link';
 // import Navbar from '../components/Navbar';
 
-const name= 'Harrison Given'
-export const siteTitle = 'Portfolio';
+const name= null
+export const siteTitle = 'itsagiven';
 
 export default function Layout({ children, home }) {
     return (
@@ -14,7 +14,7 @@ export default function Layout({ children, home }) {
       <div className={styles.container}>
         {/* < Navbar/> */}
         <header className={styles.header}>
-          {home ? (
+          {/* {home ? (
             <>
               <Image
                 priority
@@ -44,7 +44,7 @@ export default function Layout({ children, home }) {
                 </Link>
               </h2>
             </>
-          )}
+          )} */}
         </header>
         <main>{children}</main>
         {!home && (
