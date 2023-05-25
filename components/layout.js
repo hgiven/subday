@@ -3,7 +3,7 @@ import Image from 'next/image';
 import styles from './layout.module.css';
 import utilStyles from '../styles/utils.module.css';
 import Link from 'next/link';
-// import Navbar from '../components/Navbar';
+import Navbar from '../components/Navbar';
 
 const name= null
 export const siteTitle = 'itsagiven';
@@ -12,7 +12,7 @@ export default function Layout({ children, home }) {
     return (
       
       <div className={styles.container}>
-        {/* < Navbar/> */}
+        < Navbar/>
         <header className={styles.header}>
           {/* {home ? (
             <>
