@@ -58,9 +58,9 @@ nav{
   cursor: pointer;
 }
 .nav__menu-bar div{
-  width: 80px;
-  height: 2px;
-  background-color: black;
+  width: 40px;
+  height: 1px;
+  background-color: rgb(24, 24, 24);
   border-radius: 2px;
 }
 .nav__menu-list{
