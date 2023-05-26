@@ -47,7 +47,7 @@ header{
 /* adjusts the larger box across the top */
 nav{
   display: flex;
-  padding: 16px;
+  padding: 10px;
   justify-content: space-between;
   align-items: center;
   background-color: #fbfbfb;
