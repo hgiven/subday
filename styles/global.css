@@ -44,6 +44,7 @@ header{
   z-index: 30;
   top: 0;
 }
+/* adjusts the larger box across the top */
 nav{
   display: flex;
   padding: 16px;
@@ -51,15 +52,16 @@ nav{
   align-items: center;
   background-color: #fbfbfb;
 }
+/* this edits the hamburger button spacing */
 .nav__menu-bar{
   display: flex;
   flex-direction: column;
-  row-gap: 6px;
+  row-gap: 5px;
   cursor: pointer;
 }
 /* this edits the hamburger button */
 .nav__menu-bar div{
-  width: 25px;
+  width: 30px;
   height: 2px;
   background-color: rgb(24, 24, 24);
   border-radius: 2px;
