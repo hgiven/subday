@@ -60,9 +60,9 @@
     max-width: 800px;
     margin-top: 3rem;
   }
-
+/* edits the whole container of maind page */
   .container {
-    min-height: 10vh;
+    min-height: 30vh;
     padding: 0 3rem;
     display: flex;
     flex-direction: column;
