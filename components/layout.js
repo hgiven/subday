@@ -12,8 +12,8 @@ export default function Layout({ children, home }) {
     return (
       
       <div className={styles.container}>
-        < Navbar/>
         <header className={styles.header}>
+          {/* < Navbar/> */}
           {/* {home ? (
             <>
               <Image
