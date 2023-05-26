@@ -62,7 +62,7 @@
   }
 /* edits the whole container of maind page */
   .container {
-    min-height: 30vh;
+    min-height: 75vh;
     padding: 0 3rem;
     display: flex;
     flex-direction: column;
