@@ -5,7 +5,7 @@
   } */
 
  .container {
-    min-height: 100vh;
+    min-height: 10vh;
     max-width: 45rem;
     padding: 0 2rem;
     display: flex;
