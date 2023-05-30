@@ -4,6 +4,7 @@ import utilStyles from '../styles/utils.module.css';
 import Link from 'next/link'; 
 import Date from '../components/date';
 import { getSortedPostsData } from '../lib/posts';
+import Image from 'next/image'
 
 export async function getStaticProps() {
   const allPostsData = getSortedPostsData();
@@ -22,14 +23,21 @@ export default function Home({ allPostsData }) {
         <title>{siteTitle}</title>
       </Head>
       <section className={utilStyles.headingMd}>
-        <p>Hello, I'm Harriosn an instructional and user experience designer. I hope we get to meet and work on a project together soon.</p>
+        <p>Welcome, take a look.</p>
       </section>
 
       <section className={'${utilStyles.headingMd} ${utilStyles.Styles.padding1px}'}>
         <h2 className={utilStyles.headingLg}>Recent Work</h2>
         <ul className={utilStyles.list}>
-          {allPostsData.map(({ id, date, title }) => (
+          {allPostsData.map(({ id, date, title, image}) => (
             <li className={utilStyles.listItem} key={id}>
+            <Image
+              src={`/posts/${image}`}
+              alt="Picture of the author"
+              width="350px"
+              height="300px"
+            />
+            <br />
             <Link href={`/posts/${id}`}>{title}</Link>
             <br />
             <small className={utilStyles.lightText}>
