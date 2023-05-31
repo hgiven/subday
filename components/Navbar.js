@@ -4,8 +4,8 @@ import NavItem from "./NavItem";
 
 const MENU_LIST = [
   { text: "Portfolio", href: "/" },
-  { text: "Resume", href: "/portfolio" },
-  { text: "Contact", href: "/contact" },
+  { text: "Resume", href: "posts/portfolio" },
+  { text: "Contact", href: "posts/contact" },
 ];
 const Navbar = () => {
   const [navActive, setNavActive] = useState(null);
