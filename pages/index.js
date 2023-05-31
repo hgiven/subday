@@ -32,8 +32,7 @@ export default function Home({ allPostsData }) {
           {allPostsData.map(({ id, date, title, image}) => (
             <li className={utilStyles.listItem} key={id}>
             <Image
-              src={`/public/images/${image}`}
-              alt="Picture of the author"
+              src={`/images/${image}`}
               width="350px"
               height="350px"
             />
