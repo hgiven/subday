@@ -31,13 +31,12 @@ export default function Home({ allPostsData }) {
         <ul className={utilStyles.list}>
           {allPostsData.map(({ id, date, title, image}) => (
             <li className={utilStyles.listItem} key={id}>
-            <image class="caption__media" data-interchange="[{{site.baseurl}}/public/image/{{img}}]"></image>
-            {/* <Image
-              src={`/posts/${id}`}
+            <Image
+              src={`/public/images/${image}`}
               alt="Picture of the author"
               width="350px"
               height="350px"
-            /> */}
+            />
             <br />
             <Link href={`/posts/${id}`}>{title}</Link>
             <br />
