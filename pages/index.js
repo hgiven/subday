@@ -47,7 +47,8 @@ export default function Home({ allPostsData }) {
         </ul>
       </section>
 
-      <section>
+{/* uncomment to show cards containing links to dribbble and linked in */}
+      {/* <section>
          <div className={utilStyles.grid}>
            <a href="https://dribbble.com/hgiven" className={utilStyles.card}>
              <h3>Dribbble &rarr;</h3>
@@ -59,7 +60,7 @@ export default function Home({ allPostsData }) {
              <p>Previous hits.</p>
            </a>
         </div>
-      </section>
+      </section> */}
     </Layout>
   </div>
   );
