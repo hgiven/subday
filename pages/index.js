@@ -28,27 +28,29 @@ export default function Home({ allPostsData }) {
 
       <section className={'${utilStyles.headingMd} ${utilStyles.Styles.padding1px}'}>
         <h2 className={utilStyles.headingLg}>Recent Work</h2>
-        <ul className={utilStyles.list}>
-          {allPostsData.map(({ id, date, title, image}) => (
-            <li className={utilStyles.listItem} key={id}>
-            <Link href={`/posts/${id}`}>
-              <a>
-                <Image
-                  src={`${image}`}
-                  width="350px"
-                  height="350px"
-                />
-              </a>
-            </Link>
-            <br />
-            <Link href={`/posts/${id}`}>{title}</Link>
-            <br />
-            <small className={utilStyles.lightText}>
-              <Date dateString={date} />
-            </small>
-          </li>
+        <div className={utilStyles.row}>
+          <div className={utilStyles.column}>
+          <ul className={utilStyles.list}>
+            {allPostsData.map(({ id, date, title, image}) => (
+              <li className={utilStyles.listItem} key={id}>
+              <Link href={`/posts/${id}`}>
+                <a>
+                 <Image
+                    src={`${image}`}
+                  />
+                </a>
+              </Link>
+              <br />
+              <Link href={`/posts/${id}`}>{title}</Link>
+              <br />
+              <small className={utilStyles.lightText}>
+                <Date dateString={date} />
+              </small>
+            </li>
           ))}
         </ul>
+        </div>
+        </div>
       </section>
 
 {/* uncomment to show cards containing links to dribbble and linked in */}
