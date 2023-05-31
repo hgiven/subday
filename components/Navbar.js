@@ -1,6 +1,7 @@
 import Link from "next/link";
 import React, { useState } from "react";
 import NavItem from "./NavItem";
+import Logo from "./Logo";
 
 const MENU_LIST = [
   { text: "Portfolio", href: "/" },
@@ -14,6 +15,11 @@ const Navbar = () => {
   return (
     <header>
       <nav className={`nav`}>
+        <Link href={"/"}>
+          <a>
+            <h1 className="logo">itsagiven</h1>
+          </a>
+        </Link>
         <div
           onClick={() => setNavActive(!navActive)}
           className={`nav__menu-bar`}
