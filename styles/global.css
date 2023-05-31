@@ -24,7 +24,7 @@ a:hover {
 }
 
 img {
-  max-width: 50%;
+  max-width: 70%;
   display: block;
 }
 
@@ -47,7 +47,7 @@ header{
 /* adjusts the larger box across the top */
 nav{
   display: flex;
-  padding: 14px;
+  padding: 16px;
   justify-content: space-between;
   align-items: center;
   background-color: #ffffff;
