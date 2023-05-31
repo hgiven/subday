@@ -32,7 +32,7 @@ export default function Home({ allPostsData }) {
           {allPostsData.map(({ id, date, title, image}) => (
             <li className={utilStyles.listItem} key={id}>
             <Image
-              src={`/images/${image}`}
+              src={`../public/images/${image}`}
               width="350px"
               height="350px"
             />
