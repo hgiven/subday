@@ -17,10 +17,7 @@ const Navbar = () => {
       <nav className={`nav`}>
         <Link href={"/"}>
           <a>
-            <h1 className="logo">itsagiven</h1>
-            <Image
-              src= 'https://hgiven.github.io/portfolio/images/resume_logo-02_trans.png'
-            />
+            <h1 className="logo">hjbg</h1>
           </a>
         </Link>
         <div
