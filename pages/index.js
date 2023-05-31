@@ -30,6 +30,7 @@ export default function Home({ allPostsData }) {
         <h2 className={utilStyles.headingLg}>Recent Work</h2>
         <ul className={utilStyles.list}>
           {allPostsData.map(({ id, date, title, image}) => (
+          <div className={utilStyles.grid}>
             <li className={utilStyles.listItem} key={id}>
             <Image
               src={`${image}`}
@@ -42,7 +43,8 @@ export default function Home({ allPostsData }) {
             <small className={utilStyles.lightText}>
               <Date dateString={date} />
             </small>
-          </li>
+            </li>
+          </div>
           ))}
         </ul>
       </section>
