@@ -3,8 +3,8 @@ import React, { useState } from "react";
 import NavItem from "./NavItem";
 
 const MENU_LIST = [
-  { text: "Resume", href: "/" },
-  { text: "Portfolio", href: "/portfolio" },
+  { text: "Portfolio", href: "/" },
+  { text: "Resume", href: "/portfolio" },
   { text: "Contact", href: "/contact" },
 ];
 const Navbar = () => {
