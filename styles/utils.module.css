@@ -50,6 +50,7 @@
   
   .listItem {
     margin: 0 0 2rem;
+    columns: 2;
   }
   
   .lightText {
