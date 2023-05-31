@@ -28,7 +28,6 @@ export default function Home({ allPostsData }) {
 
       <section className={'${utilStyles.headingMd} ${utilStyles.Styles.padding1px}'}>
         <h2 className={utilStyles.headingLg}>Recent Work</h2>
-        <div className={utilStyles.wrapper}>
         <ul className={utilStyles.list}>
           {allPostsData.map(({ id, date, title, image}) => (
             <li className={utilStyles.listItem} key={id}>
@@ -46,7 +45,6 @@ export default function Home({ allPostsData }) {
           </li>
           ))}
         </ul>
-        </div>
       </section>
 
       <section>
