@@ -30,7 +30,7 @@ export default function Home({ allPostsData }) {
         <h2 className={utilStyles.headingLg}>Recent Work</h2>
         <div className={utilStyles.row}>
           <div className={utilStyles.column}>
-          <ul className={utilStyles.list}>
+          {/* <ul className={utilStyles.list}> */}
             {allPostsData.map(({ id, date, title, image}) => (
               <li className={utilStyles.listItem} key={id}>
               <Link href={`/posts/${id}`}>
@@ -48,7 +48,7 @@ export default function Home({ allPostsData }) {
               </small>
             </li>
           ))}
-        </ul>
+        {/* </ul> */}
         </div>
         </div>
       </section>
