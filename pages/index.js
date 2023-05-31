@@ -31,11 +31,15 @@ export default function Home({ allPostsData }) {
         <ul className={utilStyles.list}>
           {allPostsData.map(({ id, date, title, image}) => (
             <li className={utilStyles.listItem} key={id}>
-            <Image
-              src={`${image}`}
-              width="350px"
-              height="350px"
-            />
+            <Link href={`/posts/${id}`}>
+              <a>
+                <Image
+                  src={`${image}`}
+                  width="350px"
+                  height="350px"
+                />
+              </a>
+            </Link>
             <br />
             <Link href={`/posts/${id}`}>{title}</Link>
             <br />
