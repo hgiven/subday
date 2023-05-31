@@ -1,7 +1,7 @@
 ---
 title: 'Creating Instructions'
 date: '2023-05-25'
-image: 'charging-01.png'
+image: 'https://hgiven.github.io/portfolio/images/charging-01.png'
 ---
 
 ## Test
