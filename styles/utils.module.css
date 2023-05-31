@@ -36,9 +36,13 @@
   .padding1px {
     padding-top: 1px;
   }
+
+  .wrapper {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+  }
   
   .list {
-    display: grid;
     list-style: none;
     padding: 0;
     margin: 0;
