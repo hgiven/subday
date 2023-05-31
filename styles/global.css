@@ -72,7 +72,7 @@ nav{
   display: flex;
   flex-direction: column;
   position: fixed;
-  top: 40px;
+  top: 60px;
   width: 250px;
   row-gap: 24px;
   right: -250px;
