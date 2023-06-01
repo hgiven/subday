@@ -10,22 +10,22 @@ export default function Contact() {
 
       <section>
         <div className={utilStyles.grid}>
-          <div>
+          <div className={utilStyles.card}>
             <h1>Hello</h1>
             <p>Take a look</p>
           </div>
 
-          <div>
+          <div className={utilStyles.card}>
             <h1>Hello</h1>
             <p>Take a look</p>
           </div>
 
-          <div>
+          <div className={utilStyles.card}>
             <h1>Hello</h1>
             <p>Take a look</p>
           </div>
 
-          <div>
+          <div className={utilStyles.card}>
             <h1>Hello</h1>
             <p>Take a look</p>
           </div>
