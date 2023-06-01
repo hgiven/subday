@@ -1,5 +1,4 @@
 import utilStyles from '../styles/utils.module.css';
-import Layout, { siteTitle } from '../components/layout';
 
 export default function Contact() {
   return (
@@ -7,7 +6,7 @@ export default function Contact() {
         <Head>
           <title>{siteTitle}</title>
         </Head>
-        
+
         <section className={utilStyles.headingXl}>
           <p>Contact</p>
         </section>
