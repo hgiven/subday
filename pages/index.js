@@ -19,7 +19,7 @@ export default function Home({ allPostsData }) {
   return (
   <div className={utilStyles.container}>
       <Image
-          src="/bg.png"
+          src="/public/bg.png"
           alt="image"
           layout="fill"
           objectFit='cover'
