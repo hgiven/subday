@@ -1,39 +1,36 @@
 import utilStyles from '../styles/utils.module.css';
 
+
 export default function Contact() {
   return (
     <div className={utilStyles.container}>
-        <Head>
-          <title>{siteTitle}</title>
-        </Head>
+      <section className={utilStyles.headingXl}>
+        <p>Contact</p>
+      </section>
 
-        <section className={utilStyles.headingXl}>
-          <p>Contact</p>
-        </section>
+      <section>
+        <div className={utilStyles.grid}>
+          <>
+            <h1>Hello</h1>
+            <p>Take a look</p>
+          </a>
 
-        <section>
-          <div className={utilStyles.grid}>
-            <a>
-              <h1>Hello</h1>
-              <p>Take a look</p>
-            </a>
+          <>
+            <h1>Hello</h1>
+            <p>Take a look</p>
+          </a>
 
-            <a>
-              <h1>Hello</h1>
-              <p>Take a look</p>
-            </a>
+          <>
+            <h1>Hello</h1>
+            <p>Take a look</p>
+          </a>
 
-            <a>
-              <h1>Hello</h1>
-              <p>Take a look</p>
-            </a>
-
-            <a>
-              <h1>Hello</h1>
-              <p>Take a look</p>
-            </a>
-          </div>
-        </section>
+          <>
+            <h1>Hello</h1>
+            <p>Take a look</p>
+          </>
+        </div>
+      </section>
     </div>
   )
 }
