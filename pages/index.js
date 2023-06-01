@@ -15,6 +15,19 @@ export async function getStaticProps() {
   };
 }
 
+export function Home() {
+  return (
+    <>
+      <Image
+        src="/bg.png"
+        alt="image"
+        layout="fill"
+        objectFit='cover'
+      />
+    </>
+  )
+}
+
 export default function Home({ allPostsData }) {
   return (
   <div className={utilStyles.container}>
