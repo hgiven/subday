@@ -7,6 +7,7 @@ export default function Contact() {
           backgroundRepeat: 'no-repeat',
           backgroundSize: 'cover',
         }}/>
+        <h1>Contact</h1>
       </>
   )
 }
