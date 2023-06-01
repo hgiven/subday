@@ -28,7 +28,7 @@ export default function Home({ allPostsData }) {
 
       <section className={'${utilStyles.headingMd} ${utilStyles.Styles.padding1px}'}>
         {/* <h2 className={utilStyles.headingLg}>Recent Work</h2> */}
-        <ul className={utilStyles.list}>
+        <ul className={'${utilStyles.list} ${utilStyles.grid}'}>
           {allPostsData.map(({ id, date, title, image}) => (
             <li className={utilStyles.card} key={id}>
             <Link href={`/posts/${id}`}>
