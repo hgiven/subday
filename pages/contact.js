@@ -26,7 +26,6 @@ export default function Contact() {
       />
     </div>
     <div className="name block">
-      <div>
         <label htmlFor="frm-first">First Name</label>
         <input
             id="frm-first"
@@ -35,10 +34,8 @@ export default function Contact() {
             autoComplete="given-name"
             required
           />
-      </div>
     </div>
     <div className="name block">
-      <div>
         <label htmlFor="frm-last">Last Name</label>
         <input
           id="frm-last"
@@ -47,7 +44,6 @@ export default function Contact() {
           autoComplete="family-name"
           required
         />
-      </div>
     </div>
     <div className="message block">
       <label htmlFor="frm-message">Message</label>
