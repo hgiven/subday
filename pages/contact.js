@@ -8,25 +8,27 @@ export default function Contact() {
         <p>Contact</p>
       </section>
 
-      <section className={'${utilStyles.headingMd} ${utilStyles.Styles.padding1px}'}>
+      <section>
         <div className={utilStyles.grid}>
-        {allPostsData.map(({ id, date, title, image}) => (
-            <li className={utilStyles.listItem} key={id}>
-            <Link href={`/posts/${id}`}>
-              <a>
-                <Image
-                  src={`${image}`}
-                />
-              </a>
-            </Link>
-            <br />
-            <Link href={`/posts/${id}`}>{title}</Link>
-            <br />
-            <small className={utilStyles.lightText}>
-              <Date dateString={date} />
-            </small>
-          </li>
-          ))}
+          <a>
+            <h1>Hello</h1>
+            <p>Take a look</p>
+          </a>
+
+          <a>
+            <h1>Hello</h1>
+            <p>Take a look</p>
+          </a>
+
+          <a>
+            <h1>Hello</h1>
+            <p>Take a look</p>
+          </a>
+
+          <a>
+            <h1>Hello</h1>
+            <p>Take a look</p>
+          </a>
         </div>
       </section>
     </div>
