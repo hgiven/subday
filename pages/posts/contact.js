@@ -6,6 +6,7 @@ export default function Contact() {
           height: '100vh',
           backgroundRepeat: 'no-repeat',
           backgroundSize: 'cover',
+          zIndex: -1,
         }}/>
         <h1>Contact</h1>
       </>
