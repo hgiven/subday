@@ -4,9 +4,11 @@ import utilStyles from '../styles/utils.module.css';
 export default function Contact() {
   return (
     <div className={utilStyles.container}>
-      <h1>Contact</h1>
+      <section className={utilStyles.headingXl}>
+        <p>Contact</p>
+      </section>
 
-      <section>
+      <section className={'${utilStyles.headingMd} ${utilStyles.Styles.padding1px}'}>
         <div className={utilStyles.grid}>
         {allPostsData.map(({ id, date, title, image}) => (
             <li className={utilStyles.listItem} key={id}>
