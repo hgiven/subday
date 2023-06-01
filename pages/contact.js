@@ -4,10 +4,10 @@ import Layout, { siteTitle } from '../components/layout';
 export default function Contact() {
   return (
     <div className={utilStyles.container}>
-      <Layout home>
         <Head>
           <title>{siteTitle}</title>
         </Head>
+        
         <section className={utilStyles.headingXl}>
           <p>Contact</p>
         </section>
@@ -35,7 +35,6 @@ export default function Contact() {
             </a>
           </div>
         </section>
-      </Layout>
     </div>
   )
 }
