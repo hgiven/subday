@@ -10,25 +10,25 @@ export default function Contact() {
 
       <section>
         <div className={utilStyles.grid}>
-          <a>
+          <div>
             <h1>Hello</h1>
             <p>Take a look</p>
-          </a>
+          </div>
 
-          <a>
+          <div>
             <h1>Hello</h1>
             <p>Take a look</p>
-          </a>
+          </div>
 
-          <a>
+          <div>
             <h1>Hello</h1>
             <p>Take a look</p>
-          </a>
+          </div>
 
-          <a>
+          <div>
             <h1>Hello</h1>
             <p>Take a look</p>
-          </a>
+          </div>
         </div>
       </section>
     </div>
