@@ -130,7 +130,7 @@ nav{
 .container input {
   font-size: 1.2rem;
   margin: 10px 0 10px 0px;
-  border-color: rgb(31, 28, 28);
+  border: 1px solid #000000;
   padding: 10px;
   border-radius: 5px;
   background-color: #f0f0f0;
@@ -159,7 +159,7 @@ nav{
   padding: 10px;
   font-size: 20px;
   width: 100%;
-  border: 1px solid black;
+  border: 1px solid #000000;
   border-radius: 5px;
 }
 
