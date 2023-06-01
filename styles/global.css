@@ -118,9 +118,11 @@ nav{
 
 .container {
   font-size: 1.3rem;
-  border-radius: 10px;
-  width: 85%;
-  padding: 50px;
+  padding: 0 0rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  align-items: center;
   /* box-shadow: 0 54px 55px rgb(78 78 78 / 25%), 0 -12px 30px rgb(78 78 78 / 25%),
     0 4px 6px rgb(78 78 78 / 25%), 0 12px 13px rgb(78 78 78 / 25%),
     0 -3px 5px rgb(78 78 78 / 25%); */
