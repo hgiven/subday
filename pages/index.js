@@ -29,23 +29,25 @@ export default function Home({ allPostsData }) {
       <section className={'${utilStyles.headingMd} ${utilStyles.Styles.padding1px}'}>
         {/* <h2 className={utilStyles.headingLg}>Recent Work</h2> */}
         <div className={utilStyles.grid}>
-          {allPostsData.map(({ id, date, title, image}) => (
-            <li className={utilStyles.listItem} key={id}>
-            <Link href={`/posts/${id}`}>
-              <a>
-                <Image
-                  src={`${image}`}
-                />
-              </a>
-            </Link>
-            <br />
-            <Link href={`/posts/${id}`}>{title}</Link>
-            <br />
-            <small className={utilStyles.lightText}>
-              <Date dateString={date} />
-            </small>
-          </li>
-          ))}
+          <div className={utilStyles.container}>
+            {allPostsData.map(({ id, date, title, image}) => (
+              <li className={utilStyles.listItem} key={id}>
+              <Link href={`/posts/${id}`}>
+                <a>
+                  <Image
+                    src={`${image}`}
+                  />
+                </a>
+              </Link>
+              <br />
+              <Link href={`/posts/${id}`}>{title}</Link>
+              <br />
+              <small className={utilStyles.lightText}>
+                <Date dateString={date} />
+              </small>
+            </li>
+            ))}
+          </div>
         </div>
       </section>
 
