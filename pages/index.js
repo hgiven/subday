@@ -28,7 +28,7 @@ export default function Home({ allPostsData }) {
 
       <section className={'${utilStyles.headingMd} ${utilStyles.Styles.padding1px}'}>
         {/* <h2 className={utilStyles.headingLg}>Recent Work</h2> */}
-        <ul className={utilStyles.list}>
+        <div className={utilStyles.grid}>
           {allPostsData.map(({ id, date, title, image}) => (
             <li className={utilStyles.listItem} key={id}>
             <Link href={`/posts/${id}`}>
@@ -46,7 +46,7 @@ export default function Home({ allPostsData }) {
             </small>
           </li>
           ))}
-        </ul>
+        </div>
       </section>
 
 {/* uncomment to show cards containing links to dribbble and linked in */}
