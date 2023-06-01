@@ -14,25 +14,25 @@ export default function Contact() {
 
         <section>
           <div className={utilStyles.grid}>
-            <>
+            <a>
               <h1>Hello</h1>
               <p>Take a look</p>
-            </>
+            </a>
 
-            <>
+            <a>
               <h1>Hello</h1>
               <p>Take a look</p>
-            </>
+            </a>
 
-            <>
+            <a>
               <h1>Hello</h1>
               <p>Take a look</p>
-            </>
+            </a>
 
-            <>
+            <a>
               <h1>Hello</h1>
               <p>Take a look</p>
-            </>
+            </a>
           </div>
         </section>
       </Layout>
