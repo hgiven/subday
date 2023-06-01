@@ -3,8 +3,13 @@ import utilStyles from '../styles/utils.module.css';
 
 export default function Contact() {
   return (
-    <div className={utilStyles.container}>
-      <h1>Contact</h1>;
+    <div className={'${utilStyles.container} ${utilStyles.grid}'}>
+      <section>
+      <h1>Contact</h1>
+      </section>
+      <section>
+      <h1>Contact</h1>
+      </section>
     </div>
   )
 }
