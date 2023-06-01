@@ -5,8 +5,8 @@ import Logo from "./Logo";
 
 const MENU_LIST = [
   { text: "Portfolio", href: "/" },
-  { text: "Resume", href: "/posts/resume" },
-  { text: "Contact", href: "/posts/contact" },
+  { text: "Resume", href: "/resume" },
+  { text: "Contact", href: "/contact" },
 ];
 const Navbar = () => {
   const [navActive, setNavActive] = useState(null);
