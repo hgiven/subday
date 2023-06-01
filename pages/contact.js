@@ -26,16 +26,16 @@ export default function Contact() {
       />
     </div>
     <div className="name block">
-      <div>
-        <label htmlFor="frm-first">First Name</label>
-        <input
+      <label htmlFor="frm-first">First Name</label>
+      <input
           id="frm-first"
           type="text"
           name="first"
           autoComplete="given-name"
           required
         />
-      </div>
+    </div>
+    <div className="name block">
       <div>
         <label htmlFor="frm-last">Last Name</label>
         <input
