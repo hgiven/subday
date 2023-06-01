@@ -133,7 +133,7 @@ nav{
   border-color: rgb(31, 28, 28);
   padding: 10px;
   border-radius: 5px;
-  background-color: #e8f0fe;
+  background-color: #f0f0f0;
 }
 
 .container textarea {
@@ -141,7 +141,7 @@ nav{
   padding: 5px;
   border-color: rgb(31, 28, 28);
   border-radius: 7px;
-  background-color: #e7e7e7;
+  background-color: #f0f0f0;
   font-size: 20px;
 }
 
@@ -159,7 +159,7 @@ nav{
   padding: 10px;
   font-size: 20px;
   width: 100%;
-  border: 3px solid black;
+  border: 1px solid black;
   border-radius: 5px;
 }
 
