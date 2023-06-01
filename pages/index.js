@@ -18,12 +18,6 @@ export async function getStaticProps() {
 export default function Home({ allPostsData }) {
   return (
   <div className={utilStyles.container}>
-      <Image
-          src="/public/bg.png"
-          alt="image"
-          layout="fill"
-          objectFit='cover'
-        />
     <Layout home>
       <Head>
         <title>{siteTitle}</title>
