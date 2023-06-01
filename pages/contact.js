@@ -3,7 +3,7 @@ import React from 'react';
 
 export default function Contact() {
   return (
-    <form className={utilStyles.container}>
+    <form className="container">
     <h1>Get in touch</h1>
     <div className="email block">
       <label htmlFor="frm-email">Email</label>
