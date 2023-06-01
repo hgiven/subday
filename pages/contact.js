@@ -3,12 +3,29 @@ import utilStyles from '../styles/utils.module.css';
 
 export default function Contact() {
   return (
-    <div className={'${utilStyles.container} ${utilStyles.grid}'}>
-      <section>
+    <div className={utilStyles.container}>
       <h1>Contact</h1>
-      </section>
+
       <section>
-      <h1>Contact</h1>
+        <div className={utilStyles.grid}>
+        {allPostsData.map(({ id, date, title, image}) => (
+            <li className={utilStyles.listItem} key={id}>
+            <Link href={`/posts/${id}`}>
+              <a>
+                <Image
+                  src={`${image}`}
+                />
+              </a>
+            </Link>
+            <br />
+            <Link href={`/posts/${id}`}>{title}</Link>
+            <br />
+            <small className={utilStyles.lightText}>
+              <Date dateString={date} />
+            </small>
+          </li>
+          ))}
+        </div>
       </section>
     </div>
   )
