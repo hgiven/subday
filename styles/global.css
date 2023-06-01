@@ -173,37 +173,10 @@ textarea {
   resize: none;
 }
 
-.cards > li {
-  flex: 1 0 26%;
-  margin: 0.5em;
-  padding: 1em;
-  max-width: 19em;
-  min-width: 15em;
-  counter-increment: cardLi;
-  background: beige;
-  border-radius: 1em;
-}
-.cards > li:before,
-.cards > li > span {
-  float: left;
-  margin-right: 0.4em;
-}
-.cards > li:before {
-  content: counter(cardLi) ".";
-}
-.cards > li > span {
-  width: 1.25em;
-  height: 1.25em;
-  text-align: center;
-  background: #c00;
-  color: #fff;
-}
-.cards > li > span + span {
-  background: #00f;
-}
-.cards > li > div {
-  overflow: hidden;
-  padding-left: 0.6em;
+ul {
+  columns: 2;
+  -webkit-columns: 2;
+  -moz-columns: 2;
 }
 
 @media screen and (min-width: 768px) {
