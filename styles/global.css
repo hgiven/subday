@@ -173,6 +173,13 @@ textarea {
   resize: none;
 }
 
+ul {
+  height: 100px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
 @media screen and (min-width: 768px) {
   .nav__menu-bar{
     display: none;
