@@ -180,6 +180,22 @@ textarea {
   flex-wrap: wrap;
 } */
 
+ul {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+  padding-left: 0;
+}
+
+li {
+  list-style: none;
+  display: inline-block;
+  width: calc(100% / 2);
+  height: 120px;
+  text-align: center;
+}
+
 @media screen and (min-width: 768px) {
   .nav__menu-bar{
     display: none;
