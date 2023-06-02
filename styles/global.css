@@ -174,13 +174,6 @@ textarea {
   resize: none;
 }
 
-/* ul {
-  height: 100px;
-  display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
-} */
-
 ul {
   display: flex;
   flex-direction: row;
