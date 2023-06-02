@@ -6,7 +6,6 @@
 /* edits the container in blog pages */
  .container {
     min-height: 75vh;
-    max-width: 100%;
     padding: 0 1.25rem;
     display: flex;
     flex-direction: column;
