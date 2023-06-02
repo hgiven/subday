@@ -34,7 +34,7 @@ img {
   margin: 0;
   padding: 0;
   outline: none;
-  box-sizing: border-box;
+  box-sizing: content-box;
   font-family: 'Work Sans', sans-serif;
 }
 a{
