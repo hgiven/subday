@@ -6,7 +6,7 @@
 /* edits the container in blog pages */
  .container {
     min-height: 75vh;
-    padding: 0 1.25rem;
+    padding: 0 0rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
