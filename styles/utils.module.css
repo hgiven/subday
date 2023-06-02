@@ -121,7 +121,6 @@
   .card {
     margin: 1rem;
     flex-basis: 45%;
-    width: fit-content;
     padding: 1.5rem;
     text-align: left;
     color: inherit;
