@@ -5,7 +5,7 @@
   } */
 /* edits the container in blog pages */
  .container {
-    min-height: 75vh;
+    min-height: 250vh;
     padding: 0 1.50rem;
     display: flex;
     flex-direction: column;
