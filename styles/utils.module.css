@@ -121,6 +121,9 @@
   .card {
     margin: 1rem;
     flex-basis: 45%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
     width: fit-content;
     padding: 1.5rem;
     text-align: left;

@@ -176,7 +176,21 @@ textarea {
 
 /* end of contact form */
 
+/* ul {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  overflow: hidden;
+  padding-left: 0;
+} */
 
+li {
+  list-style: none;
+  display: inline-block;
+  width: calc(100% / 2);
+  /* height: 120px; */
+  text-align: center;
+}
 
 @media screen and (min-width: 768px) {
   
