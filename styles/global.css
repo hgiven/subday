@@ -115,7 +115,7 @@ nav{
   display: flex;
   flex-direction: column;
 }
-
+/* for the contact form */
 .container {
   font-size: 1.3rem;
   padding: 0 0rem;
@@ -173,6 +173,8 @@ nav{
 textarea {
   resize: none;
 }
+
+/* end of contact form */
 
 ul {
   display: flex;
