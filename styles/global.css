@@ -174,8 +174,8 @@ textarea {
 }
 
 ul {
-  height: 100px;
-  display: flex;
+  /* height: 100px; */
+  /* display: flex; */
   flex-direction: column;
   flex-wrap: wrap;
 }
