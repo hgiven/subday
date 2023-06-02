@@ -120,6 +120,9 @@
   
   .card {
     margin: 1rem;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
     /* flex-basis: 45%; */
     padding: 1.5rem;
     text-align: left;
