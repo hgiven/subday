@@ -178,7 +178,7 @@ ul {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  justify-content: space-between;
+  flex-shrink: 0;
   padding-left: 0;
 }
 
