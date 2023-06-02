@@ -72,6 +72,7 @@
     padding: 0 0rem;
     display: flex;
     flex-direction: column;
+    flex-shrink: 0;
     justify-content: left;
     align-items: center;
   }
