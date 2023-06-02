@@ -178,7 +178,7 @@ ul {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  width: 100%;
+  justify-content: center;
   padding-left: 0;
 }
 
@@ -190,7 +190,7 @@ li {
   text-align: center;
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 479px) {
    
   ul{
     display: none
