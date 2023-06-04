@@ -40,7 +40,6 @@
   /* max-width adjust the width of the list so that we can get a larger image */
   .list {
     list-style: none;
-    flex-shrink: 1;
     padding: 0;
     margin: 0;
 

@@ -180,7 +180,6 @@ ul {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  flex-shrink: 1;
   overflow: hidden;
   padding-left: 0;
 }
@@ -188,8 +187,6 @@ ul {
 li {
   list-style: none;
   display: inline-block;
-  flex-shrink: 1;
-  flex-shrink: 1;
   width: calc(100% / 2);
   /* height: 120px; */
   text-align: center;
