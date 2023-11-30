@@ -1,7 +1,7 @@
 ---
 title: 'What is SubDay?'
 date: '2023-04-13'
-image: 'https://hgiven.github.io/portfolio/images/charging-02.png' 
+image: 'https://hgiven.github.io/portfolio/images/vadim-bogulov-MfBnqUOz_qY-unsplash.jpg' 
 ---
 
 ## What is SubDay?
