@@ -4,7 +4,7 @@ import NavItem from "./NavItem";
 import Logo from "./Logo";
 
 const MENU_LIST = [
-  { text: "Portfolio", href: "/" },
+  { text: "Home", href: "/" },
   { text: "Resume", href: "/resume" },
   { text: "Contact", href: "/contact" },
 ];
