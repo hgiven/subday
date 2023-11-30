@@ -1,15 +1,8 @@
 ---
-title: 'Mounting'
+title: 'Math 1'
 date: '2023-05-17'
-image: 'https://hgiven.github.io/portfolio/images/x-grip-02.jpg'
+image: 'https://hgiven.github.io/portfolio/images/artturi-jalli-gYrYa37fAKI-unsplash.jpg'
 ---
 
-## Mounting
+## Math 1
 
-![alt text](https://hgiven.github.io/portfolio/images/x-grip-01.jpg)
-
-![alt text](https://hgiven.github.io/portfolio/images/x-grip-02.jpg)
-
-![alt text](https://hgiven.github.io/portfolio/images/x-grip-03.jpg)
-
-![alt text](https://hgiven.github.io/portfolio/images/x-grip-04.jpg)
