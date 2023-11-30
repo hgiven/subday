@@ -5,7 +5,7 @@ import Logo from "./Logo";
 
 const MENU_LIST = [
   { text: "Home", href: "/" },
-  { text: "Resume", href: "/resume" },
+  { text: "About", href: "/about" },
   { text: "Contact", href: "/contact" },
 ];
 const Navbar = () => {

@@ -1,3 +1,3 @@
-export default function Resume() {
+export default function About() {
     return <h1>About</h1>;
   }
