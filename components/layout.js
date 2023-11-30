@@ -6,7 +6,7 @@ import Link from 'next/link';
 import Navbar from '../components/Navbar';
 
 const name= null
-export const siteTitle = 'itsagiven';
+export const siteTitle = 'SubDay';
 
 export default function Layout({ children, home }) {
     return (
