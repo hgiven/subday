@@ -150,6 +150,7 @@
   
   .logo {
     height: 1em;
+    background: url(https://hgiven.github.io/subday/images/subday-logo.png);
   }
   
   @media (max-width: 600px) {
